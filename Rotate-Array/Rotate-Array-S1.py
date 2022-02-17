@@ -2,6 +2,7 @@ class Solution:
     # insert the last item in the list to the first position
     # delete the last item
     # repeat for k %= n times
+    # time complexity O(kn)
     def rotate(nums: list[int], k: int) -> None:
         n = len(nums)
         k %= n
